@@ -10,6 +10,7 @@
 */
 
 Console.Clear();
+string[] array = { "hello", "2", "world", ":-)" };//или {“1234”, “1567”, “-2”, “computer science”}; {“Russia”, “Denmark”, “Kazan”};
 void PrintArray(string[] array)
 {
     Console.WriteLine();
@@ -34,7 +35,6 @@ void SortArray(string[] array)
     }
     Console.WriteLine();
 }
-string[] array = { "hello", "2", "world", ":-)" };//или {“1234”, “1567”, “-2”, “computer science”}; {“Russia”, “Denmark”, “Kazan”};
 PrintArray(array);
 Console.WriteLine();
 SortArray(array);
